@@ -14,7 +14,7 @@ namespace Server
         public const int Day = 24 * Hour, Hour = 60 * Minute, Minute = 60 * Second, Second = 1000;
 
         public static readonly string EnvirPath = Path.Combine(".", "Envir"),
-            ConfigPath = Path.Combine(".", "Configs"),
+            ConfigPath = Path.Combine(".", "Config"),
             MapPath = Path.Combine(".", "Maps"),
             ExportPath = Path.Combine(".", "Exports"),
             GuildPath = Path.Combine(".", "Guilds"),
